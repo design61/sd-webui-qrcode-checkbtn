@@ -1,6 +1,15 @@
 # sd-webui-qrcode-checkbtn
 这是一个针对Stable Diffusion web UI开发的一个二维码检测功能，能让你快速检查生成的图片二维码时候可以识别，免去手机扫码（Quick detection of QR code）
 
+## 功能记录
+2023.9.2
+1. 支持webUI 1.6版本
+2. 支持后期处理
+
+2023.8.6
+1. 支持t2i
+2. 支持i2i
+
 ## 效果展示
 1. 无图状态 (empty image)
 <img alt="Screenshot" src="https://github.com/design61/sd-webui-qrcode-checkbtn/blob/main/image/1.gif">
@@ -26,11 +35,6 @@
 4. Press `Install` button.
 5. Wait for 5 seconds, and you will see the message `Use Installed tab to restart`.
 6. Go to the `Installed` tab, and then click `Apply and restart UI`.
-
-## 功能记录
-2023.8.6
-1. 支持t2i
-2. 支持i2i
 
 ## 说明:
 1. 解码方案使用的是openCV.js，和微信扫码使用的解码方案很接近
